@@ -25,22 +25,22 @@
   Hint: Aperte 5 + 7 e aperte enter.
 
 - Class: text
-  Output: Por padrão, o R simplesmente retorna o resultado: 12. No entanto, R é uma linguagem de programação.
+  Output: Por padrão, o R simplesmente retorna o resultado = 12. No entanto, R é uma linguagem de programação.
     Geralmente utilizamos programação em vez de calculadoras por que queremos automatizar processos
     ou evitar reptição desnecessária.
-  
+
 - Class: text
   Output: Neste exemplo queremos utilizar o resultado acima em um segundo cálculo.
-    Em vez de repetir 5 + 7 toda vez que for necessário, podemos criar uma variável 
+    Em vez de repetir 5 + 7 toda vez que for necessário, podemos criar uma variável
     que armazena o resultado.
 
 - Class: text
   Output: Para armazenar um valor em uma variável no R, utilizamos o operador de associação,
     que é simplesmente um sinal de "menor que" (<) seguido de um sinal de menos (-).
     Ou seja: "<-".
-  
+
 - Class: text
-  Output: Pense no operador de atribuição como uma seta. Você está atribuindo o valor do 
+  Output: Pense no operador de atribuição como uma seta. Você está atribuindo o valor do
     lado direito da seta para o nome da variável no lado esquerdo da seta.
 
 - Class: cmd_question
