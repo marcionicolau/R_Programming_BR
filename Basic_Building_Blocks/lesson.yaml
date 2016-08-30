@@ -35,9 +35,9 @@
     que armazena o resultado.
 
 - Class: text
-  Output: Para armazenar um valor em uma variável no R, utilizamos o operador de associação,
+  Output: 'Para armazenar um valor em uma variável no R, utilizamos o operador de associação,
     que é simplesmente um sinal de "menor que" (<) seguido de um sinal de menos (-).
-    Ou seja>: "<-".
+    Ou seja: "<-".'
 
 - Class: text
   Output: Pense no operador de atribuição como uma seta. Você está atribuindo o valor do
