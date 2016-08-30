@@ -19,38 +19,37 @@
 
 - Class: cmd_question
   Output: Em sua forma mais simples, o R pode ser utilizado como uma calculadora interativa. Digite
-  5 + 7 e aperte enter.
+    5 + 7 e aperte enter.
   CorrectAnswer: 5 + 7
   AnswerTests: omnitest(correctExpr='5 + 7')
   Hint: Aperte 5 + 7 e aperte enter.
 
 - Class: text
   Output: Por padrão, o R simplesmente retorna o resultado: 12. No entanto, R é uma linguagem de programação.
-  Geralmente utilizamos programação em vez de calculadoras por que queremos automatizar processos
-  ou evitar reptição desnecessária.
+    Geralmente utilizamos programação em vez de calculadoras por que queremos automatizar processos
+    ou evitar reptição desnecessária.
   
 - Class: text
   Output: Neste exemplo queremos utilizar o resultado acima em um segundo cálculo.
-  Em vez de repetir 5 + 7 toda vez que for necessário, podemos criar uma variável 
-  que armazena o resultado.
+    Em vez de repetir 5 + 7 toda vez que for necessário, podemos criar uma variável 
+    que armazena o resultado.
 
 - Class: text
   Output: Para armazenar um valor em uma variável no R, utilizamos o operador de associação,
-  que é simplesmente um sinal de "menos que" (<) seguido de um sinal de menos (-).
-  Ou seja: "<-".
+    que é simplesmente um sinal de "menor que" (<) seguido de um sinal de menos (-).
+    Ou seja: "<-".
   
 - Class: text
-  Output: Think of the assignment operator as an arrow. You are assigning the value
-    on the right side of the arrow to the variable name on the left side of the arrow.
+  Output: Pense no operador de atribuição como uma seta. Você está atribuindo o valor do 
+    lado direito da seta para o nome da variável no lado esquerdo da seta.
 
 - Class: cmd_question
-  Output: To assign the result of 5 + 7 to a new variable called x, you type x <-
-    5 + 7. This can be read as 'x gets 5 plus 7'. Give it a try now.
+  Output: Para atribuir o resultado de 5 + 7 para uma nova variável chamada x, voce digita x <-
+    5 + 7. Esta operação pode ser lida como 'x recebe 5 mais 7'. Tente fazer voce agora.
   CorrectAnswer: x <- 5 + 7
   AnswerTests: any_of_exprs('x <- 5 + 7', 'x <- 7 + 5')
-  Hint: Type x <- 5 + 7. It's important to include a single space on each side of
-    the assignment operator, but do NOT put a space between the `<` and the `-` that
-    form the arrow.
+  Hint: Digite x <- 5 + 7. É imporante incluir um espaço em cada lado do operador de atribuição, mas
+    NÃO coloque um espaço entre as partes que formam o operador de atribuição `<` e o `-`.
 
 - Class: text
   Output: You'll notice that R did not print the result of 12 this time. When you
